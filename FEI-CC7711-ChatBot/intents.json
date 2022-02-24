@@ -1,0 +1,38 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi"],
+    "responses": ["oi","como vai"],
+    "context": [""]
+  },
+  { "tag": "saudacao_sequencia",
+    "patterns":["estou bem, e voce?","tudo bem?","vou bem, e voce?"],
+    "responses": ["que bom, estou otimo!","vou muito bem!"],
+    "context": [""]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks", "até mais"],
+    "responses": ["ate breve","falou"],
+    "context": [""]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?", "Qual e a data da prova?"],
+    "responses": ["no dia 25"],
+    "context": [""]
+  },
+  { "tag": "introducao",
+    "patterns":["O que e iniciacao cientifica?","O que e este programa?", "Como funciona a iniciacao cientifica?"],
+    "responses": ["O Programa de Iniciacao Cientifica visa introduzir os alunos de graduacao na metodologia cientifica aplicada a projetos de pesquisa cientifica e tecnologica."],
+    "context": [""]
+  },
+  { "tag": "quem_participa",
+    "patterns":["Quem pode fazer iniciacao cientifica?","Quem pode participar?"],
+    "responses": ["Este Programa destina-se a alunos com bom rendimento academico que buscam complementar sua formacao atraves da execucao de projetos de pesquisa, elaboracao de relatorios e divulgacao dos seus resultados em eventos de pesquisas cientificas e de investigacao tecnologica"],
+    "context": [""]
+  },
+  { "tag": "como_participa",
+    "patterns":["Como faco para participar?","O que eu faco para ingressar?"],
+    "responses": ["O aluno deve procurar um professor do departamento, com disponibilidade para orientacao e verificar as vagas disponiveis para projetos de iniciacao. Tendo sido selecionado um aluno, o professor deve entao elaborar uma proposta de projeto individual, dentro dos moldes exigidos pela Comissao de Iniciacao Cientifica e encaminha-la a Coordenacao. O aluno nao podera ter nenhuma dependencia e o tempo de dedicacao para a realizacao do projeto e de no minimo 16 horas semanais. A Fundacao Educacional Inaciana Pe. Saboia de Medeiros oferece bolsas de iniciacao cientifica aos melhores alunos, pelo prazo de ate um ano."],
+    "context": [""]
+  }
+]
+}
